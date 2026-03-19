@@ -1,0 +1,366 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" width="900" height="580">
+  <defs>
+    <linearGradient id="wallGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5f3f0"/>
+      <stop offset="100%" stop-color="#e8e4de"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d8d0c4"/>
+      <stop offset="100%" stop-color="#c8c0b4"/>
+    </linearGradient>
+    <linearGradient id="bannerGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1B3A6B"/>
+      <stop offset="100%" stop-color="#2a5298"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-color="#00000030"/>
+    </filter>
+  </defs>
+
+  <!-- Background wall -->
+  <rect width="900" height="580" fill="url(#wallGrad)"/>
+  
+  <!-- Floor -->
+  <rect x="0" y="430" width="900" height="150" fill="url(#floorGrad)"/>
+  <rect x="0" y="428" width="900" height="4" fill="#b8b0a4"/>
+  <!-- Floor tiles -->
+  <rect x="0" y="430" width="60" height="150" fill="#d2cac0" opacity="0.4"/>
+  <rect x="120" y="430" width="60" height="150" fill="#d2cac0" opacity="0.4"/>
+  <rect x="240" y="430" width="60" height="150" fill="#d2cac0" opacity="0.4"/>
+  <rect x="360" y="430" width="60" height="150" fill="#d2cac0" opacity="0.4"/>
+  <rect x="480" y="430" width="60" height="150" fill="#d2cac0" opacity="0.4"/>
+  <rect x="600" y="430" width="60" height="150" fill="#d2cac0" opacity="0.4"/>
+  <rect x="720" y="430" width="60" height="150" fill="#d2cac0" opacity="0.4"/>
+  <rect x="840" y="430" width="60" height="150" fill="#d2cac0" opacity="0.4"/>
+
+  <!-- ═══ PHARMACY SHELVES (RIGHT SIDE) ═══ -->
+  <rect x="520" y="80" width="370" height="355" rx="6" fill="#f0ede8" stroke="#c8c4be" stroke-width="2"/>
+  
+  <!-- Shelf boards + medicines -->
+  <!-- Row 1 -->
+  <rect x="530" y="80" width="360" height="60" fill="#f5f3f0"/>
+  <rect x="530" y="136" width="360" height="5" fill="#d0ccc6"/>
+  <!-- Medicine boxes row 1 -->
+  <rect x="536" y="86" width="22" height="40" rx="2" fill="#c6e4c8" stroke="#a8caa8" stroke-width="1"/>
+  <rect x="562" y="86" width="22" height="40" rx="2" fill="#e4c6c6" stroke="#caa8a8" stroke-width="1"/>
+  <rect x="588" y="86" width="22" height="40" rx="2" fill="#c6d8e4" stroke="#a8c0ca" stroke-width="1"/>
+  <rect x="614" y="86" width="22" height="40" rx="2" fill="#e4dcc6" stroke="#cac0a8" stroke-width="1"/>
+  <rect x="640" y="86" width="22" height="40" rx="2" fill="#dac6e4" stroke="#c0a8ca" stroke-width="1"/>
+  <rect x="666" y="86" width="22" height="40" rx="2" fill="#c6e4d8" stroke="#a8cac0" stroke-width="1"/>
+  <rect x="692" y="86" width="22" height="40" rx="2" fill="#e4d4c6" stroke="#cab8a8" stroke-width="1"/>
+  <rect x="718" y="86" width="22" height="40" rx="2" fill="#d0e4c6" stroke="#b8caa8" stroke-width="1"/>
+  <rect x="744" y="86" width="22" height="40" rx="2" fill="#e4e4c6" stroke="#cacaa8" stroke-width="1"/>
+  <rect x="770" y="86" width="22" height="40" rx="2" fill="#c6dae4" stroke="#a8beca" stroke-width="1"/>
+  <rect x="796" y="86" width="22" height="40" rx="2" fill="#e4c6d8" stroke="#caa8c0" stroke-width="1"/>
+  <rect x="822" y="86" width="22" height="40" rx="2" fill="#c8e4e4" stroke="#aacaca" stroke-width="1"/>
+  <rect x="848" y="86" width="22" height="40" rx="2" fill="#e4cac6" stroke="#cab0a8" stroke-width="1"/>
+  <!-- white labels -->
+  <rect x="539" y="94" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="565" y="94" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="591" y="94" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="617" y="94" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="643" y="94" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="669" y="94" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="695" y="94" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="721" y="94" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="747" y="94" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="773" y="94" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="799" y="94" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="825" y="94" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="851" y="94" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+
+  <!-- Row 2 -->
+  <rect x="530" y="141" width="360" height="60" fill="#f5f3f0"/>
+  <rect x="530" y="197" width="360" height="5" fill="#d0ccc6"/>
+  <rect x="536" y="147" width="22" height="40" rx="2" fill="#e4c6c6"/><rect x="539" y="154" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="562" y="147" width="22" height="40" rx="2" fill="#c6e4d8"/><rect x="565" y="154" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="588" y="147" width="22" height="40" rx="2" fill="#e4dcc6"/><rect x="591" y="154" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="614" y="147" width="22" height="40" rx="2" fill="#c6d8e4"/><rect x="617" y="154" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="640" y="147" width="22" height="40" rx="2" fill="#e4e4c6"/><rect x="643" y="154" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="666" y="147" width="22" height="40" rx="2" fill="#dac6e4"/><rect x="669" y="154" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="692" y="147" width="22" height="40" rx="2" fill="#c6e4c8"/><rect x="695" y="154" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="718" y="147" width="22" height="40" rx="2" fill="#e4c6d8"/><rect x="721" y="154" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="744" y="147" width="22" height="40" rx="2" fill="#c8e4e4"/><rect x="747" y="154" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="770" y="147" width="22" height="40" rx="2" fill="#e4d4c6"/><rect x="773" y="154" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="796" y="147" width="22" height="40" rx="2" fill="#c6dae4"/><rect x="799" y="154" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="822" y="147" width="22" height="40" rx="2" fill="#d0e4c6"/><rect x="825" y="154" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="848" y="147" width="22" height="40" rx="2" fill="#e4cac6"/><rect x="851" y="154" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+
+  <!-- Row 3 -->
+  <rect x="530" y="202" width="360" height="60" fill="#f5f3f0"/>
+  <rect x="530" y="258" width="360" height="5" fill="#d0ccc6"/>
+  <rect x="536" y="208" width="22" height="40" rx="2" fill="#c6d8e4"/><rect x="539" y="215" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="562" y="208" width="22" height="40" rx="2" fill="#e4c6c6"/><rect x="565" y="215" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="588" y="208" width="22" height="40" rx="2" fill="#c6e4c8"/><rect x="591" y="215" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="614" y="208" width="22" height="40" rx="2" fill="#dac6e4"/><rect x="617" y="215" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="640" y="208" width="22" height="40" rx="2" fill="#e4dcc6"/><rect x="643" y="215" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="666" y="208" width="22" height="40" rx="2" fill="#c6e4d8"/><rect x="669" y="215" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="692" y="208" width="22" height="40" rx="2" fill="#e4e4c6"/><rect x="695" y="215" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="718" y="208" width="22" height="40" rx="2" fill="#c8e4e4"/><rect x="721" y="215" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="744" y="208" width="22" height="40" rx="2" fill="#e4c6d8"/><rect x="747" y="215" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="770" y="208" width="22" height="40" rx="2" fill="#d0e4c6"/><rect x="773" y="215" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="796" y="208" width="22" height="40" rx="2" fill="#e4d4c6"/><rect x="799" y="215" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="822" y="208" width="22" height="40" rx="2" fill="#c6dae4"/><rect x="825" y="215" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="848" y="208" width="22" height="40" rx="2" fill="#e4cac6"/><rect x="851" y="215" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+
+  <!-- Row 4 -->
+  <rect x="530" y="263" width="360" height="60" fill="#f5f3f0"/>
+  <rect x="530" y="319" width="360" height="5" fill="#d0ccc6"/>
+  <rect x="536" y="269" width="22" height="40" rx="2" fill="#e4e4c6"/><rect x="539" y="276" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="562" y="269" width="22" height="40" rx="2" fill="#c6e4c8"/><rect x="565" y="276" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="588" y="269" width="22" height="40" rx="2" fill="#e4c6d8"/><rect x="591" y="276" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="614" y="269" width="22" height="40" rx="2" fill="#c6dae4"/><rect x="617" y="276" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="640" y="269" width="22" height="40" rx="2" fill="#dac6e4"/><rect x="643" y="276" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="666" y="269" width="22" height="40" rx="2" fill="#e4d4c6"/><rect x="669" y="276" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="692" y="269" width="22" height="40" rx="2" fill="#c6d8e4"/><rect x="695" y="276" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="718" y="269" width="22" height="40" rx="2" fill="#e4c6c6"/><rect x="721" y="276" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="744" y="269" width="22" height="40" rx="2" fill="#c8e4e4"/><rect x="747" y="276" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="770" y="269" width="22" height="40" rx="2" fill="#e4dcc6"/><rect x="773" y="276" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="796" y="269" width="22" height="40" rx="2" fill="#d0e4c6"/><rect x="799" y="276" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="822" y="269" width="22" height="40" rx="2" fill="#e4cac6"/><rect x="825" y="276" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="848" y="269" width="22" height="40" rx="2" fill="#c6e4d8"/><rect x="851" y="276" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+
+  <!-- Row 5 -->
+  <rect x="530" y="324" width="360" height="60" fill="#f5f3f0"/>
+  <rect x="530" y="380" width="360" height="5" fill="#d0ccc6"/>
+  <rect x="536" y="330" width="22" height="40" rx="2" fill="#c6e4d8"/><rect x="539" y="337" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="562" y="330" width="22" height="40" rx="2" fill="#e4c6c6"/><rect x="565" y="337" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="588" y="330" width="22" height="40" rx="2" fill="#dac6e4"/><rect x="591" y="337" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="614" y="330" width="22" height="40" rx="2" fill="#e4dcc6"/><rect x="617" y="337" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="640" y="330" width="22" height="40" rx="2" fill="#c6d8e4"/><rect x="643" y="337" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="666" y="330" width="22" height="40" rx="2" fill="#e4e4c6"/><rect x="669" y="337" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="692" y="330" width="22" height="40" rx="2" fill="#c6e4c8"/><rect x="695" y="337" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="718" y="330" width="22" height="40" rx="2" fill="#e4c6d8"/><rect x="721" y="337" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="744" y="330" width="22" height="40" rx="2" fill="#c8e4e4"/><rect x="747" y="337" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="770" y="330" width="22" height="40" rx="2" fill="#d0e4c6"/><rect x="773" y="337" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="796" y="330" width="22" height="40" rx="2" fill="#e4d4c6"/><rect x="799" y="337" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="822" y="330" width="22" height="40" rx="2" fill="#c6dae4"/><rect x="825" y="337" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+  <rect x="848" y="330" width="22" height="40" rx="2" fill="#e4cac6"/><rect x="851" y="337" width="16" height="8" rx="1" fill="white" opacity="0.8"/>
+
+  <!-- Shelf dividers -->
+  <rect x="615" y="84" width="2" height="300" fill="#d0ccc6" opacity="0.6"/>
+  <rect x="700" y="84" width="2" height="300" fill="#d0ccc6" opacity="0.6"/>
+  <rect x="785" y="84" width="2" height="300" fill="#d0ccc6" opacity="0.6"/>
+  <rect x="870" y="84" width="2" height="300" fill="#d0ccc6" opacity="0.6"/>
+
+  <!-- ═══ COUNTER ═══ -->
+  <rect x="55" y="390" width="460" height="50" rx="10" fill="#b89870"/>
+  <rect x="55" y="383" width="460" height="14" rx="6" fill="#cdb090"/>
+  <rect x="57" y="385" width="456" height="10" rx="5" fill="#d8bc9c"/>
+
+  <!-- ═══ DELIVERY BOX ═══ -->
+  <rect x="148" y="290" width="188" height="100" rx="5" fill="#dcb658"/>
+  <rect x="148" y="334" width="188" height="8" fill="#c8a040"/>
+  <rect x="238" y="290" width="10" height="100" fill="#c8a040"/>
+  <polygon points="148,290 238,290 238,306 148,312" fill="#c8a545"/>
+  <polygon points="248,290 336,290 336,312 248,306" fill="#c8a545"/>
+  <!-- Box label -->
+  <rect x="162" y="300" width="160" height="52" rx="4" fill="white" opacity="0.95"/>
+  <!-- Red medical cross on label -->
+  <rect x="172" y="310" width="8" height="24" rx="1" fill="#E8003D"/>
+  <rect x="166" y="316" width="20" height="8" rx="1" fill="#E8003D"/>
+  <!-- Pharma Medico brand on label -->
+  <rect x="198" y="306" width="116" height="16" rx="2" fill="#1B3A6B"/>
+  <rect x="198" y="325" width="80" height="8" rx="1" fill="#E8003D"/>
+  <rect x="198" y="337" width="60" height="6" rx="1" fill="#8a9ab0"/>
+  <rect x="198" y="345" width="48" height="5" rx="1" fill="#aab0bc" opacity="0.6"/>
+
+  <!-- ═══ DELIVERY MAN ═══ -->
+  <g transform="translate(208, 0)" filter="url(#shadow)">
+    <!-- shadow -->
+    <ellipse cx="12" cy="435" rx="36" ry="8" fill="#00000030"/>
+    <!-- shoes -->
+    <rect x="-20" y="408" width="22" height="12" rx="5" fill="#1e1c20"/>
+    <rect x="10"  y="408" width="22" height="12" rx="5" fill="#1e1c20"/>
+    <!-- trousers -->
+    <rect x="-22" y="335" width="20" height="80" rx="8" fill="#1e2e50"/>
+    <rect x="2"   y="335" width="20" height="80" rx="8" fill="#1e2e50"/>
+    <rect x="-22" y="328" width="44" height="14" rx="4" fill="#1e2e50"/>
+    <!-- belt -->
+    <rect x="-22" y="322" width="44" height="8" fill="#141e38"/>
+    <rect x="-5"  y="318" width="10" height="14" rx="2" fill="#b89838"/>
+    <!-- torso navy uniform -->
+    <rect x="-30" y="220" width="60" height="110" rx="12" fill="#1B3A6B"/>
+    <!-- collar accent crimson -->
+    <polygon points="-8,220 8,220 10,248 -10,248" fill="#E8003D"/>
+    <!-- pocket -->
+    <rect x="-26" y="255" width="20" height="22" rx="3" fill="#2044a0" opacity="0.7"/>
+    <rect x="-23" y="260" width="14" height="4" fill="white" opacity="0.5"/>
+    <!-- left arm -->
+    <rect x="-44" y="226" width="18" height="80" rx="9" fill="#1B3A6B"/>
+    <ellipse cx="-40" cy="316" rx="11" ry="13" fill="#c69868"/>
+    <!-- right arm (holding clipboard) -->
+    <rect x="26"  y="226" width="18" height="72" rx="9" fill="#1B3A6B"/>
+    <ellipse cx="40" cy="308" rx="11" ry="13" fill="#c69868"/>
+    <!-- clipboard -->
+    <rect x="36"  y="200" width="48" height="82" rx="4" fill="#e8e0d0"/>
+    <rect x="36"  y="200" width="48" height="82" rx="4" fill="none" stroke="#c8c0b0" stroke-width="1.5"/>
+    <rect x="46"  y="194" width="28" height="12" rx="3" fill="#706860"/>
+    <rect x="42"  y="212" width="36" height="4" rx="1" fill="#a8a098" opacity="0.8"/>
+    <rect x="42"  y="220" width="36" height="4" rx="1" fill="#a8a098" opacity="0.8"/>
+    <rect x="42"  y="228" width="32" height="4" rx="1" fill="#a8a098" opacity="0.8"/>
+    <rect x="42"  y="236" width="34" height="4" rx="1" fill="#a8a098" opacity="0.8"/>
+    <rect x="42"  y="244" width="28" height="4" rx="1" fill="#a8a098" opacity="0.8"/>
+    <rect x="42"  y="252" width="32" height="4" rx="1" fill="#a8a098" opacity="0.8"/>
+    <!-- neck -->
+    <rect x="-7"  y="204" width="14" height="20" rx="5" fill="#c69868"/>
+    <!-- head -->
+    <ellipse cx="10" cy="180" rx="32" ry="34" fill="#c69868"/>
+    <!-- hair dark -->
+    <path d="M-20,168 Q10,142 42,168 Q40,152 10,148 Q-18,152 -20,168Z" fill="#1e120a"/>
+    <!-- cap -->
+    <ellipse cx="10" cy="160" rx="36" ry="18" fill="#1B3A6B"/>
+    <rect x="-34" y="158" width="72" height="12" rx="3" fill="#1B3A6B"/>
+    <rect x="-40" y="162" width="84" height="10" rx="5" fill="#2a4e8c"/>
+    <!-- cap badge -->
+    <circle cx="10" cy="150" r="9" fill="#E8003D"/>
+    <circle cx="10" cy="150" r="7" fill="white" opacity="0.85"/>
+    <!-- ears -->
+    <ellipse cx="-24" cy="185" rx="7" ry="9" fill="#c69868"/>
+    <ellipse cx="44" cy="185" rx="7" ry="9" fill="#c69868"/>
+    <!-- eyes -->
+    <ellipse cx="-6"  cy="183" rx="8" ry="7" fill="white"/>
+    <ellipse cx="22" cy="183" rx="8" ry="7" fill="white"/>
+    <circle cx="-4" cy="183" r="5" fill="#1e120a"/>
+    <circle cx="24" cy="183" r="5" fill="#1e120a"/>
+    <circle cx="-2" cy="181" r="2" fill="#080808"/>
+    <circle cx="26" cy="181" r="2" fill="#080808"/>
+    <!-- nose -->
+    <ellipse cx="9" cy="196" rx="4" ry="4" fill="#a86838"/>
+    <!-- smile -->
+    <path d="M-2,206 Q9,216 22,206" stroke="#886040" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- ═══ PHARMACIST (female, right) ═══ -->
+  <g transform="translate(398, 0)" filter="url(#shadow)">
+    <!-- shadow -->
+    <ellipse cx="10" cy="435" rx="34" ry="8" fill="#00000028"/>
+    <!-- shoes -->
+    <rect x="-18" y="410" width="18" height="10" rx="4" fill="#302420"/>
+    <rect x="4"   y="410" width="18" height="10" rx="4" fill="#302420"/>
+    <!-- trousers scrub -->
+    <rect x="-18" y="342" width="16" height="78" rx="7" fill="#3c5070"/>
+    <rect x="2"   y="342" width="16" height="78" rx="7" fill="#3c5070"/>
+    <rect x="-18" y="335" width="36" height="14" rx="4" fill="#3c5070"/>
+    <!-- scrub under coat -->
+    <rect x="-16" y="234" width="32" height="110" rx="8" fill="#88bfc4"/>
+    <!-- white coat -->
+    <rect x="-32" y="228" width="64" height="116" rx="12" fill="#fafafa" stroke="#d8d8d4" stroke-width="1"/>
+    <!-- coat lapels -->
+    <polygon points="-10,228 -2,228 -4,260 -14,260" fill="#f0f0ee"/>
+    <polygon points="2,228 10,228 14,260 4,260"   fill="#f0f0ee"/>
+    <!-- name badge -->
+    <rect x="-28" y="268" width="24" height="22" rx="3" fill="#f6f6f4" stroke="#d0d0cc" stroke-width="1"/>
+    <rect x="-25" y="272" width="18" height="6" rx="1" fill="#1B3A6B" opacity="0.75"/>
+    <rect x="-25" y="282" width="12" height="4" rx="1" fill="#aaa8a5" opacity="0.7"/>
+    <!-- stethoscope -->
+    <path d="M-16,228 Q-28,250 -20,270" stroke="#303035" stroke-width="4" fill="none"/>
+    <path d="M16,228 Q28,250 20,270" stroke="#303035" stroke-width="4" fill="none"/>
+    <path d="M-20,270 Q0,290 20,270" stroke="#303035" stroke-width="4" fill="none"/>
+    <circle cx="0" cy="286" r="7" fill="#303035"/>
+    <!-- arms -->
+    <rect x="-46" y="238" width="18" height="72" rx="9" fill="#fafafa"/>
+    <ellipse cx="-42" cy="318" rx="10" ry="12" fill="#e0bc94"/>
+    <rect x="28"  y="238" width="18" height="68" rx="9" fill="#fafafa"/>
+    <!-- tablet device -->
+    <rect x="38"  y="216" width="66" height="88" rx="7" fill="#242428"/>
+    <rect x="42"  y="220" width="58" height="80" rx="5" fill="#4898c2"/>
+    <rect x="47"  y="225" width="48" height="8"  rx="1" fill="white" opacity="0.85"/>
+    <rect x="47"  y="237" width="38" height="5"  rx="1" fill="white" opacity="0.7"/>
+    <rect x="47"  y="246" width="42" height="5"  rx="1" fill="white" opacity="0.7"/>
+    <rect x="47"  y="255" width="36" height="5"  rx="1" fill="white" opacity="0.7"/>
+    <!-- tiny Pharma Medico cross on screen -->
+    <rect x="64"  y="268" width="6" height="20" rx="1" fill="#E8003D" opacity="0.8"/>
+    <rect x="58"  y="274" width="18" height="6" rx="1" fill="#E8003D" opacity="0.8"/>
+    <!-- hands on tablet -->
+    <ellipse cx="42"  cy="306" rx="10" ry="11" fill="#e0bc94"/>
+    <ellipse cx="96"  cy="306" rx="10" ry="11" fill="#e0bc94"/>
+    <!-- neck -->
+    <rect x="-8" cy="210" width="16" height="22" rx="5" fill="#e0bc94"/>
+    <rect x="-8" y="210" width="16" height="22" rx="5" fill="#e0bc94"/>
+    <!-- head -->
+    <ellipse cx="6" cy="182" rx="30" ry="32" fill="#e0bc94"/>
+    <!-- hair dark, shoulder length -->
+    <path d="M-24,168 Q6,142 38,168 Q36,150 6,146 Q-22,150 -24,168Z" fill="#1e120a"/>
+    <rect x="-26" y="168" width="8"  height="80" rx="10" fill="#1e120a"/>
+    <rect x="30"  y="168" width="8"  height="80" rx="10" fill="#1e120a"/>
+    <!-- ears -->
+    <ellipse cx="-26" cy="186" rx="6" ry="8" fill="#e0bc94"/>
+    <ellipse cx="38"  cy="186" rx="6" ry="8" fill="#e0bc94"/>
+    <!-- eyes -->
+    <ellipse cx="-8"  cy="183" rx="8" ry="7" fill="white"/>
+    <ellipse cx="20" cy="183" rx="8" ry="7" fill="white"/>
+    <circle cx="-6"  cy="183" r="5" fill="#1e120a"/>
+    <circle cx="22"  cy="183" r="5" fill="#1e120a"/>
+    <circle cx="-4"  cy="181" r="2" fill="#080808"/>
+    <circle cx="24"  cy="181" r="2" fill="#080808"/>
+    <!-- lashes -->
+    <line x1="-14" y1="176" x2="-16" y2="171" stroke="#1e120a" stroke-width="1.5"/>
+    <line x1="-8"  y1="174" x2="-9"  y2="169" stroke="#1e120a" stroke-width="1.5"/>
+    <line x1="-2"  y1="175" x2="-2"  y2="170" stroke="#1e120a" stroke-width="1.5"/>
+    <line x1="16"  y1="175" x2="16"  y2="170" stroke="#1e120a" stroke-width="1.5"/>
+    <line x1="22"  y1="174" x2="23"  y2="169" stroke="#1e120a" stroke-width="1.5"/>
+    <line x1="28"  y1="176" x2="30"  y2="171" stroke="#1e120a" stroke-width="1.5"/>
+    <!-- nose -->
+    <ellipse cx="6"  cy="196" rx="4"  ry="3.5" fill="#c8a080"/>
+    <!-- lips -->
+    <path d="M-4,207 Q6,218 16,207" stroke="#c05848" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M-3,211 Q6,219 15,211" stroke="#d06858" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- ═══ PHARMA MEDICO BRANDING BANNER ═══ -->
+  <rect x="42" y="22" width="520" height="78" rx="12" fill="url(#bannerGrad)"/>
+  <rect x="42" y="22" width="520" height="78" rx="12" fill="none" stroke="#E8003D" stroke-width="2"/>
+  <rect x="44" y="24" width="516" height="38" rx="11" fill="white" opacity="0.07"/>
+  
+  <!-- Medical cross icon -->
+  <rect x="62"  y="38" width="10" height="34" rx="2" fill="#E8003D"/>
+  <rect x="50"  y="50" width="34" height="10" rx="2" fill="#E8003D"/>
+  <circle cx="79" cy="55" r="22" fill="none" stroke="#E8003D" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- "Pharma Medico" brand text (white box + colored blocks simulating text) -->
+  <rect x="100" y="32" width="310" height="30" rx="4" fill="white" opacity="0.95"/>
+  <rect x="106" y="36" width="126" height="22" rx="3" fill="#1B3A6B"/>
+  <rect x="236" y="36" width="106" height="22" rx="3" fill="#E8003D"/>
+  <rect x="345" y="36" width="58"  height="22" rx="3" fill="#2E8BC0"/>
+  
+  <!-- "MEDICINE DISTRIBUTORS" tagline -->
+  <rect x="100" y="66" width="240" height="10" rx="2" fill="white" opacity="0.35"/>
+  <rect x="102" y="67" width="180" height="8"  rx="2" fill="white" opacity="0.6"/>
+
+  <!-- Est 1997 badge -->
+  <rect x="426" y="34" width="90" height="56" rx="8" fill="white" opacity="0.10"/>
+  <rect x="432" y="40" width="78" height="26" rx="4" fill="#E8003D" opacity="0.25"/>
+  <rect x="434" y="42" width="74" height="22" rx="3" fill="white" opacity="0.15"/>
+  <rect x="438" y="45" width="66" height="14" rx="2" fill="#E8003D" opacity="0.8"/>
+  <rect x="432" y="70" width="78" height="12" rx="3" fill="white" opacity="0.3"/>
+
+  <!-- Decorative dots -->
+  <circle cx="534" cy="42" r="4" fill="white" opacity="0.2"/>
+  <circle cx="548" cy="42" r="4" fill="white" opacity="0.2"/>
+  <circle cx="534" cy="56" r="4" fill="white" opacity="0.2"/>
+  <circle cx="548" cy="56" r="4" fill="white" opacity="0.2"/>
+  <circle cx="534" cy="70" r="4" fill="white" opacity="0.2"/>
+  <circle cx="548" cy="70" r="4" fill="white" opacity="0.2"/>
+
+  <!-- Floating pills decoration -->
+  <rect x="32"  y="148" width="32" height="14" rx="7" fill="#5bc8f5" opacity="0.75"/>
+  <rect x="32"  y="148" width="16" height="14" rx="7" fill="#1B3A6B" opacity="0.75"/>
+  <ellipse cx="38" cy="153" rx="5" ry="4" fill="white" opacity="0.4"/>
+
+  <rect x="32"  y="236" width="32" height="14" rx="7" fill="#E8003D" opacity="0.7"/>
+  <rect x="32"  y="236" width="16" height="14" rx="7" fill="#c40030" opacity="0.7"/>
+  <ellipse cx="38" cy="241" rx="5" ry="4" fill="white" opacity="0.35"/>
+
+  <rect x="32"  y="325" width="32" height="14" rx="7" fill="#32b464" opacity="0.7"/>
+  <rect x="32"  y="325" width="16" height="14" rx="7" fill="#20903c" opacity="0.7"/>
+  <ellipse cx="38" cy="330" rx="5" ry="4" fill="white" opacity="0.35"/>
+
+  <rect x="504" y="148" width="32" height="14" rx="7" fill="#dcb440" opacity="0.7"/>
+  <rect x="504" y="148" width="16" height="14" rx="7" fill="#b89020" opacity="0.7"/>
+  <ellipse cx="510" cy="153" rx="5" ry="4" fill="white" opacity="0.35"/>
+
+  <rect x="504" y="360" width="32" height="14" rx="7" fill="#9840d0" opacity="0.65"/>
+  <rect x="504" y="360" width="16" height="14" rx="7" fill="#6810a8" opacity="0.65"/>
+  <ellipse cx="510" cy="365" rx="5" ry="4" fill="white" opacity="0.35"/>
+</svg>
